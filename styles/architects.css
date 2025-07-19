@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* share style  */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+}
+
+ .bg-light{
+   background-color:rgba(255, 144, 14, 0.1);
+ }
+ .btn-primary{
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    padding: 20px 25px;
+
+ }
+/* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+
+}
+.brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #131313;
+   
+}
+.nav-link a{
+    text-decoration: none;
+    color: #424242;
+    margin-right: 30PX;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related styles */
+.banner-content{
+  max-width: 850px;
+  
+  margin: 0  auto; 
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top:216px;
+
+
+  
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner button{
+    margin-top: 32px;
+}
+.banner-discription{
+    color: #727272;
+    margin-top: 30px;
+}
